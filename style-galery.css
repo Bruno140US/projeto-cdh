@@ -50,7 +50,7 @@ nav {
 nav ul a {
     color: black;
     justify-content: space-between;
-    padding: 5px 20px;
+    padding: 5px 25px;
     text-decoration: none;
     border-radius: 20px;
     
@@ -62,16 +62,6 @@ nav ul a:hover {
     text-decoration: none;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-}
-
-a:hover {
-    text-decoration: underline white;
-}
-
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -79,39 +69,6 @@ section {
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 2.6vw;
-}
-
-section > p {
-    padding-bottom: 2em;
-}
-
-section.normal {
-    background-color: white;
-}
-
-section.imagem {
-    color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
-    background-attachment: fixed;
-}
-
-section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.5);
-    display: inline-block;
-    padding: 10px;
-    text-shadow: 1px 1px 0px black;
-}
-
-section#img01 {
-    background-image: url(images/cdh-picture1.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-
-section#img02 {
-    background-image: url(images/cdh-picture2.jpeg);
-    background-size: cover;
-    background-position: center;
 }
 
 section > button {
