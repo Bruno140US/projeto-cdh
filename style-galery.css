@@ -50,16 +50,22 @@ nav {
 nav ul a {
     color: black;
     justify-content: space-between;
-    padding: 5px 18px;
+    padding: 5px 10px;
     text-decoration: none;
     border-radius: 20px;
-    
 }
 
 nav ul a:hover {
     transition: 0.5s;
     color: #FFC50C;
     text-decoration: none;
+}
+
+h4 {
+    margin-top: 20px;
+    padding: 0px 33px;
+    font-family: var(--fonte3);
+    font-size: 30px;
 }
 
 section {
@@ -69,6 +75,20 @@ section {
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 2.6vw;
+}
+
+section.chandeliers {
+    display: flex;
+    height: 40vh;
+    padding-top: 25px;
+    margin-right: 5px;
+    align-items: left;
+    justify-content: left;
+}
+
+section.chandeliers.pic1 {
+    margin: 10px 10px;
+    padding: 10px 10px;
 }
 
 section > button {
