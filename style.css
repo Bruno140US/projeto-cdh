@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: white;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: white;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+header img {
+    width: 40%;
+    height: 40%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px 0px;
+    font-family: 'Passion One', cursive;
+    font-size: 25px;
+    font-weight: 100;
+    background-color: white;
+    text-decoration: none;
+}
+
+nav ul a {
+    color: black;
+    justify-content: space-between;
+    padding: 5px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+
+nav ul a:hover {
+    transition: 0.5s;
+    background-color: #FFC50C;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline white;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 5vw;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url(images/cdh-picture1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+section#img02 {
+    background-image: url(images/cdh-picture2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+section > button {
+    background-color: white;
+    padding: 15px 35px 15px 35px;
+    border: 1px solid black;
+    font-family: 'Passion One', cursive;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 35px;
+    display: inline-block;
+}
+
+section > button:hover {
+    background-color: #FFC50C;
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.300);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
