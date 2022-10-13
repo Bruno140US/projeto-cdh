@@ -43,6 +43,8 @@ nav {
     font-weight: 100;
     background-color: white;
     text-decoration: none;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid #FFC50C;
 }
 
 nav ul a {
@@ -56,7 +58,7 @@ nav ul a {
 
 nav ul a:hover {
     transition: 0.5s;
-    background-color: #FFC50C;
+    color: #FFC50C;
     text-decoration: none;
 }
 
